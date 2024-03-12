@@ -1,0 +1,215 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2639
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');\
+\
+:root \{\
+  --theme-color: #0996a0\
+\}\
+\
+* \{\
+  margin: 0;\
+  padding: 0;\
+  box-sizing: border-box;\
+\}\
+\
+body \{\
+  font-family: 'Poppins', sans-serif;\
+  background: linear-gradient(259deg,#e3dede,#dfb2b4);\
+  animation: gradient-animation 2s ease infinite;\
+ \}\
+\
+ @keyframes gradient-animation \{\
+  0% \{\
+    background-position: 0% 50%;\
+  \}\
+  50% \{\
+    background-position: 100% 50%;\
+  \}\
+  100% \{\
+    background-position: 0% 50%;\
+  \}\
+\}\
+\
+header \{\
+  display: flex;\
+  justify-content: space-between;\
+  align-items: center;\
+  position: sticky;\
+  top: 0;\
+  background-color: #efefef;\
+  padding: 1rem 1.5rem;\
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.2);\
+  z-index: 1;\
+\}\
+\
+header #logo \{\
+  font-size: 1.5rem;\
+  font-weight: bolder;\
+  color: var(--theme-color)\
+\}\
+\
+header ul \{\
+  list-style: none;\
+  display: flex;\
+\}\
+\
+header ul li \{\
+  margin: 0 0.5rem;\
+  cursor: pointer;\
+\}\
+\
+header ul li:hover \{\
+  color: var(--theme-color)\
+\}\
+\
+.active \{\
+  color: var(--theme-color)\
+\}\
+\
+.background-image\{\
+  padding-top: 175px;\
+  padding-bottom: 175px;\
+  position: relative;\
+  background-position: 50%;\
+  background-size: cover;\
+  background-repeat: no-repeat;\
+  margin: 0;\
+\}\
+\
+.background-text\{\
+  text-align: center;\
+  color: black;\
+\}\
+\
+.background-text h1\{\
+  font-size: 2 rem;\
+  padding-bottom: 10px;\
+\}\
+@media screen and (max-width: 1080px) \{\
+  .background-text h1 \{\
+    font-size: 1.8rem;\
+  \}\
+\}\
+@media screen and (max-width: 720px) \{\
+  .background-text h1 \{\
+    font-size: 1.6rem;\
+  \}\
+\}\
+@media screen and (max-width: 390px) \{\
+  .background-text h1 \{\
+    font-size: 1.4rem;\
+  \}\
+\}\
+.background-text p\{\
+  font-size: 1.2rem;\
+  padding-bottom: 20px;\
+\}\
+@media screen and (max-width: 1080px) \{\
+  .background-text p \{\
+    font-size: 0.8rem;\
+  \}\
+\}\
+@media screen and (max-width: 720px) \{\
+  .background-text p \{\
+    font-size: 0.6rem;\
+  \}\
+\}\
+@media screen and (max-width: 390px) \{\
+  .background-text p \{\
+    font-size: 0.4rem;\
+  \}\
+\}\
+\
+form\{\
+  width: 90%;\
+  max-width: 600px;\
+  margin: auto;\
+  display: flex;\
+  align-items: center;\
+  justify-content: center;\
+\}\
+#search\{\
+  gap: 1.5rem;\
+\}\
+form input\{\
+  flex: 1;\
+  width: 60%;\
+  height: 100%;\
+  border: none;\
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);\
+  outline: 0;\
+  border-radius: 8px;\
+  padding: 10px 20px;\
+  background: transparent;\
+  color: #fff;\
+  font-size: 18px;\
+\}\
+\
+form button\{\
+  padding: 0 40px;\
+  height: 100%;\
+  background: transparent;\
+  color: black;\
+  font-size: 18px;\
+  border: none;\
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);\
+  outline: 0;\
+  border-radius: 8px;\
+  padding: 10px;\
+  cursor: pointer;\
+\}\
+\
+#main\{\
+  display: grid;\
+  grid-gap: 0.5rem;\
+  grid-template-columns: repeat(4, 1fr);\
+  grid-template-rows: repeat(4, 1fr);\
+\}\
+\
+img\{\
+  width: 100%;\
+  height: 100%;\
+  object-fit: cover;\
+  background-repeat: no-repeat;\
+  border-radius: 10PX;\
+  border: 2px solid black;\
+\}\
+\
+#photo-card \{\
+  position: relative;\
+\}\
+\
+#photo-card #photo-card-action \{\
+  position: absolute;\
+  width: 100%;\
+  bottom: 0;\
+  display: flex;\
+  padding: 1rem;\
+  justify-content: end;  \
+\}\
+\
+#photo-card #photo-card-action button \{\
+  appearance: none;\
+  border: none;\
+  font-size: 2rem;\
+  background-color: transparent;\
+  cursor: pointer;\
+\}\
+\
+#show-more\{\
+  flex: content;\
+  border: none;\
+  justify-content: center;\
+  background: transparent;\
+  color: black;\
+  font-size: 18px;\
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);\
+  outline: 0;\
+  padding: 10px;\
+  cursor: pointer;\
+\}}
